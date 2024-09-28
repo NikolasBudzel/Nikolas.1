@@ -40,3 +40,4 @@ def uloha_5(a,b):
     else:
         print("parameter a musi byt mensi ako b")
 
+
