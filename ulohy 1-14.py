@@ -1,8 +1,4 @@
 #uloha 1
-from itertools import count
-from sys import excepthook, exception
-
-
 def uloha_1():
     for i in range (1,11):
         print(i)
