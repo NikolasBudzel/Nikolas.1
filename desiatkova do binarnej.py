@@ -18,4 +18,5 @@ def decimal(number):
         number = number // 10
         power_2 *= 2
     return result
+
 print(decimal(10000))
