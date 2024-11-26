@@ -59,6 +59,14 @@ def uloha10_urci_priponu(retazec:str):
     elif pripona == "img":
         print("obrazok")
 
+def uloha10_bez_rfind(retazec):
+    bodka = retazec.find(".")
+    pripona = retazec[:bodka:-1]
+    pripona = pripona[::-1]
+
+
+uloha10_bez_rfind("aha.pdf")
+
 def uloha11_vsetky_4miestne_PIN():
     pin = "0123"
     for i in pin:
