@@ -16,6 +16,4 @@ for riadok in fr:#prechadzam subor po riadkoch
         mapa_pixelov[x//2, y] = (jozo, jozo,jozo)
     y+=1
 
-
-
 obrazok.show()

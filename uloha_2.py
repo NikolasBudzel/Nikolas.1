@@ -6,12 +6,13 @@ canvas = tk.Canvas(root, width=500, height=500)
 canvas.pack()
 
 def zmena(farba):
-    tk.Label(root, image=farba).place(x=290, y=441)
-    tk.Label(root, image=farba).place(x=463, y=341)
-    tk.Label(root, image=farba).place(x=463, y=141)
-    tk.Label(root, image=farba).place(x=290, y=59)
-    tk.Label(root, image=farba).place(x=117, y=159)
-    tk.Label(root, image=farba).place(x=117, y=359)
+    label= tk.Label(root, image=farba).place(x=290, y=441)
+    label.pack()
+    label1 = tk.Label(root, image=farba).place(x=463, y=341)
+    label2 = tk.Label(root, image=farba).place(x=463, y=141)
+    label3 = tk.Label(root, image=farba).place(x=290, y=59)
+    label4 = tk.Label(root, image=farba).place(x=117, y=159)
+    label5 = tk.Label(root, image=farba).place(x=117, y=359)
 
 
 
